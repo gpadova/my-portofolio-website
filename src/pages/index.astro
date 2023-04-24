@@ -20,9 +20,6 @@ import Skills from '../components/Skills.astro';
 const projects = (await getCollection('work'))
 	.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
 	.slice(0, 4);
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
 
 <BaseLayout>
@@ -30,22 +27,18 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
-					align="start"
-				>
+					title="Hello, I am Giovanni Padova."
+					tagline="I am a Full Stack web developer with a passion for creating innovative and dynamic web applications." align="start" >
 					<div class="roles">
 						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Giovanni Padova profile picture"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/profile_picture.jpeg"
 				/>
 			</header>
 
@@ -56,7 +49,7 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<p>Take a look below at some of highlighted projects.</p>
 				</header>
 
 				<div class="gallery">
@@ -79,7 +72,7 @@ const projects = (await getCollection('work'))
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
+			<!-- <section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mentions</h3>
 					<p>
@@ -99,7 +92,7 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-			</section>
+			</section> -->
 		</main>
 
 		<ContactCTA />
@@ -146,8 +139,6 @@ const projects = (await getCollection('work'))
 			object-fit: cover;
 		}
 	}
-
-	/* ====================================================== */
 
 	.section {
 		display: grid;
@@ -225,8 +216,6 @@ const projects = (await getCollection('work'))
 			grid-area: cta;
 		}
 	}
-
-	/* ====================================================== */
 
 	.mention-card {
 		display: flex;

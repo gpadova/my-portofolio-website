@@ -1,120 +1,185 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout title="About me" description="Know a little more about me">
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="About me"
+        tagline="Here's a deeper look on who I am, and what I worked previsouly"
+      >
+        <!-- <img
+          width="453"
+          
+          src="/assets/IMG_0515.jpeg"
+          alt="Good picture"
+        /> -->
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
-					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p>
+            My name is Giovanni Padova and I am a 24-year-old resident of
+            Florianopolis, Brazil. I pursued a degree in Electrical Engineering
+            at UFSC. I also completed a web development bootcamp. I did two
+            internships during my time at University as well.
+          </p>
+          <br />
+          <p>
+            In my first internship, I worked as a customer support
+            representative in the telecommunications industry. I focused on
+            improving customer satisfaction by reducing response times,
+            implementing more efficient processes, and improving technical
+            skills and product knowledge.
+          </p>
+          <br />
+          <p>
+            In my second internship, I worked as a Customer Success Specialist,
+            where I developed and implemented strategies to improve the customer
+            journey and collaborated with the support team to improve response
+            times and quality of responses. I also conducted customer research
+            and identified areas for improvement in the company's internal
+            processes to improve efficiency and effectiveness.
+          </p>
+          <br />
+          <p>
+            In addition to my internships, I have worked as a cook in a
+            restaurant at a Ski Resort in Colorado. My responsibilities included
+            preparing ingredients, planning meals, coordinating the organization
+            and cleanliness of the work area, and operating in compliance with
+            food safety standards and hygiene procedures.
+          </p>
+          <br />
+          <p>
+            In addition to my technical skills, I'm also a strong communicator
+            and collaborator. I enjoy working with others to achieve project
+            goals and am always willing to go the extra mile to ensure success.
+            My ability to think creatively and outside the box enables me to
+            come up with unique solutions to complex development challenges.
+          </p>
+          <br />
+          <p>
+            In the bootcamp, I was taught all the fundamentals of web
+            development. During the bootcamp, I gained experience with the Scrum
+            methodology and learned how to be a software engineer.
+          </p>
+          <br />
+          <p>
+            The bootcamp provided me with a comprehensive understanding of web
+            development, including HTML, CSS, JavaScript, and various frameworks
+            such as React and Node.js. I also learned about database management,
+            APIs, and other important topics in web development.
+          </p>
+          <br />
+          <p>
+            Moreover, the bootcamp gave me practical experience by working on
+            real-world projects, allowing me to hone my skills and gain
+            confidence in my abilities. Through the Scrum methodology, I learned
+            how to work efficiently in a team and manage projects effectively.
+          </p>
+          <br />
+          <p>
+            Overall, the web development bootcamp was a valuable experience that
+            helped me develop a strong foundation in web development and taught
+            me important skills that I can apply in my career as a software
+            engineer.
+          </p>
+          <br />
+          <p>
+            Outside of work, I enjoy cooking, chess, and cycling. Cooking allows
+            me to experiment with new recipes and ingredients while chess
+            provides a mental challenge that helps me develop my critical
+            thinking skills. Cycling, on the other hand, keeps me active and
+            allows me to explore the beautiful scenery around Florianopolis.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <p>
+            • 2017 - 2022: Electrical Engineering, at <a
+              target="_blank"
+              href="https://ufsc.br/">UFSC</a
+            >
+          </p>
+          <p>
+            • 2022 - 2023: Full Stack Web Development bootcamp, at <a
+              target="_blank"
+              href="https://www.driven.com.br/">Driven Education</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
 
-		<ContactCTA />
-	</div>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+    width: 95%;
+  }
+  .content p {
+    text-align: justify;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
