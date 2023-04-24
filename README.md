@@ -17,7 +17,7 @@
 
 <h2>Getting Started</h2>
 <ol>
-  <li>Clone the repository to your local machine using the command <code>git clone https://github.com/gpadova/portofolio-website.git</code></li>
+  <li>Clone the repository to your local machine using the command <code>git clone https://github.com/gpadova/my-portofolio-website.git</code></li>
   <li>Install dependencies by running <code>npm install</code> in the root directory of the project</li>
   <li>Start the development server by running <code>npm run dev</code></li>
   <li>Navigate to <a href="http://localhost:3000">http://localhost:3000</a> in your web browser to view the site</li>
