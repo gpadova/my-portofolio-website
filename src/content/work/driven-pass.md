@@ -13,7 +13,7 @@ tags:
   - PostgreSQL
 ---
 <h5>Short Description:</h5>
-DrivenPass is an open-source password management tool that aims to help users manage their passwords securely. It is built using modern web technologies and follows industry-standard security practices. In this detailed explanation, we'll go over its tech stack, features, and how it provides a secure and reliable experience for its users. The project is open-source and available on <a href="https://github.com/gpadova/DrivenPass" target="blank">GitHub</a>
+DrivenPass is an open-source password management tool that aims to help users manage their passwords securely. It is built using modern web technologies and follows industry-standard security practices. In this detailed explanation, we'll go over its tech stack, features, and how it provides a secure and reliable experience for its users. The project is open-source and available on <a href="https://github.com/gpadova/DrivenPass" target="blank">GitHub</a>.
 
 <h5>Tech Stack:</h5>
 DrivenPass is built using a modern tech stack that includes:
