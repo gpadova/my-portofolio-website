@@ -1,31 +1,39 @@
-# Astro Starter Kit: Portfolio
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Portfolio Page</title>
+  </head>
+  <body>
+    <h1>My Personal Portfolio Page</h1>
+    <p>This is my personal portfolio page, showcasing my skills and experience as a web developer. The site is built using <a href="https://astro.build/">Astro</a>, a modern static site builder for building fast, modern web applications.</p>
+    <h2>Features</h2>
+<ul>
+  <li>Clean and modern design</li>
+  <li>Responsive layout for all devices</li>
+  <li>Showcase of my latest projects and skills</li>
+  <li>Contact form to get in touch with me</li>
+  <li>Optimized for fast page load times</li>
+</ul>
 
-```
-npm create astro@latest -- --template portfolio
-```
+<h2>Getting Started</h2>
+<ol>
+  <li>Clone the repository to your local machine using the command <code>git clone https://github.com/gpadova/portofolio-website.git</code></li>
+  <li>Install dependencies by running <code>npm install</code> in the root directory of the project</li>
+  <li>Start the development server by running <code>npm run dev</code></li>
+  <li>Navigate to <a href="http://localhost:3000">http://localhost:3000</a> in your web browser to view the site</li>
+</ol>
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/portfolio)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/portfolio/devcontainer.json)
+<h2>Technologies Used</h2>
+<ul>
+  <li><a href="https://astro.build/">Astro</a> for building fast, modern web applications</li>
+  <li><a href="https://reactjs.org/">React</a> for building interactivy components</li>
+  <li><a href="https://vercel.com">Vercel</a> for deployment and hosting</li>
+</ul>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<h2>Contact Me</h2>
+<p>If you have any questions or would like to discuss a potential project, please don't hesitate to contact me via email at <a href="mailto:myemail@gmail.com">gpadova@belmare.com.br</a> or through the contact form on my portfolio page.</p>
 
-![portfolio](https://user-images.githubusercontent.com/357379/210779178-a98f0fb7-6b1a-4068-894c-8e1403e26654.jpg)
-
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<h2>License</h2>
+<p>This project is licensed under the MIT License.</p>
+  </body>
+</html>
