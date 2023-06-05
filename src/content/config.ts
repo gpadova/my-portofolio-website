@@ -6,6 +6,7 @@ export const collections = {
 			title: z.string(),
 			description: z.string(),
 			publishDate: z.coerce.date(),
+			git_hub_link: z.coerce.string(),
 			tags: z.array(z.string()),
 			img: z.string(),
 			img_alt: z.string().optional(),

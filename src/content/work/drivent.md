@@ -3,6 +3,7 @@ title: Drivent
 publishDate: 2023-10-03 00:00:00
 img: /assets/drivent.jpeg
 img_alt: Demo of the events listners of Drivent.
+git_hub_link: "https://github.com/teamdrivent/drivent-backend"
 description: |
   Drivent is a full-stack web application designed to help event organizers manage their events and attendees. The platform includes features such as event creation, ticket management, attendee management, and marketing tools. Built using Node.js, Express, Prisma, React. Drivent is a scalable and flexible white label solution for event management.
 tags:

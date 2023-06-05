@@ -3,6 +3,7 @@ title: Track It
 publishDate: 2019-10-02 00:00:00
 img: /assets/track-it.png
 img_alt: Trackit Demo.
+git_hub_link: "https://github.com/gpadova/Trackit"
 description: |
   Trackit is a habit tracking project that allows users to log, monitor their daily habits, set goals an watch their progress. The project uses a simple and intuitive interface to make it easy for users to enter their data, view their progress, and stay motivated.
 tags:

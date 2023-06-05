@@ -3,6 +3,7 @@ title: Thrill Seeker
 publishDate: 2020-03-02 00:00:00
 img: /assets/thrill-seeker2.webp
 img_alt: Iridescent ripples of a bright blue and pink liquid
+git_hub_link: "https://github.com/gpadova/DrivenPass"
 description: |
   Thrill Seeker is a web application that helps users find and book thrilling experiences and activities in their area. The platform integrates with external APIs to provide a wide range of activities and experiences around the world, and also allows users to create accounts to save their favorite activities and booking information. With a modern design and easy-to-use interface, Thrill Seeker makes it easy for users to find and book exciting experiences.
 tags:
