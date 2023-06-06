@@ -80,11 +80,14 @@ const { Content } = await entry.render();
 
   .tags {
     display: flex;
+    flex-direction: column;
     gap: 0.5rem;
+    flex-wrap: wrap;
   }
 
   .description {
     font-size: var(--text-lg);
+    text-align: justify;
     max-width: 54ch;
   }
 

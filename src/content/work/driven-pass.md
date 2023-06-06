@@ -8,18 +8,17 @@ description:
   DrivenPass is an open-source password management tool designed to help users manage their passwords securely. It allows users to store and organize their passwords in a password vault protected by a master password. The tool provides features such as automatic password generation, and the ability to securely share passwords with other users.
 tags:
   - Typescript
-  - JWT
+  - Nest
   - Jest
   - Prisma
-  - PostgreSQL
 ---
 <h5>Short Description:</h5>
-DrivenPass is an open-source password management tool that aims to help users manage their passwords securely. It is built using modern web technologies and follows industry-standard security practices. In this detailed explanation, we'll go over its tech stack, features, and how it provides a secure and reliable experience for its users. The project is open-source and available on <a href="https://github.com/gpadova/DrivenPass" target="blank">GitHub</a>.
+DrivenPass is an open-source password management tool that I entirely did by myself, that aims to help users manage their passwords securely. It is built using modern web technologies and follows industry-standard security practices. In this detailed explanation, we'll go over its tech stack, features, and how it provides a secure and reliable experience for its users. The project is open-source and available on versions. The first version is done in Express, and it's repo is available in this link <a href="https://github.com/gpadova/DrivenPass" target="blank">GitHub</a>. The second version was developed entirely in Nest, and it's available on this link on <a href="https://github.com/gpadova/drivenPassNest" target="blank">GitHub</a>.
 
 <h5>Tech Stack:</h5>
 DrivenPass is built using a modern tech stack that includes:
 
-<strong>Backend:</strong> DrivenPass uses Node.js together with TypeScript, to build its backend. It uses the Express.js framework to handle requests and provide APIs to the frontend.
+<strong>Backend:</strong> DrivenPass uses Node.js together with TypeScript, to build its backend. It uses the Express and Nest frameworks to handle requests and provide APIs to the frontend.
 
 <strong>Database:</strong> DrivenPass stores user data in a PostgreSQL database, using the Prisma ORM, to ensure good quality ans scalabilty of its Database.
 
